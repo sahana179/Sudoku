@@ -20,7 +20,8 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: "3.10"
-        architecture: 'x64'
+        architecture: 'x64' 
+        # DefaultArchitecture
     - run: python Sudoku.py
     - name: Install dependencies
       run: |
